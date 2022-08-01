@@ -13,7 +13,7 @@ Mediocre, crashes sometimes, WiFi + BT useless.
 
 ### What is near 100% completed
 * Iris 540 1.5GB / Metal
-* ALC294 Speakers / Mic
+* ALC298 Speakers / Mic
 * Proper mapping of available USB 3.0/3.1 ports
 * Batt. indicator
 * Sleep

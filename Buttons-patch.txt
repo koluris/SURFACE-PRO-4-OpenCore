@@ -1,0 +1,44 @@
+into device label RMKB remove_entry;
+into definitionblock code_regex . insert
+begin
+Device (RMKB)\n
+{\n
+Name(_HID, "RMKB0000")\n
+}\n
+end;
+
+into method label _Q52 replace_content
+begin
+// Volume-up pressed\n
+Notify(\RMKB, 0x1148)\n
+end;
+
+into method label _Q53 replace_content
+begin
+// Volume-up released\n
+Notify(\RMKB, 0x1248)\n
+end;
+
+into method label _Q54 replace_content
+begin
+// Volume-down pressed\n
+Notify(\RMKB, 0x1149)\n
+end;
+
+into method label _Q55 replace_content
+begin
+// Volume-down released\n
+Notify(\RMKB, 0x1249)\n
+end;
+
+into method label _Q60 replace_content
+begin
+//Power button pressed\n
+Notify(\RMKB, 0x117f)\n
+end;
+
+into method label _Q61 replace_content
+begin
+// Power button released\n
+Notify(\RMKB, 0x127f)\n
+end;

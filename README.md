@@ -1,4 +1,4 @@
-# SURFACE-PRO-4-OpenCore
+# SURFACE-PRO-4-OpenCore (<a href="https://naden.co">https://naden.co</a>)
 Hackintosh Guide for MICROSOFT SURFACE PRO 4 Series
 
 ### Overall
